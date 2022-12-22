@@ -6,3 +6,6 @@ def inventory(request):
 
 def create(request):
     return render(request,'create.html')	
+
+def network(request):
+	return render(request,'network.html')
