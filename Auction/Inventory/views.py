@@ -5,4 +5,7 @@ def inventory(request):
 	return render(request,'index.html')
 
 def create(request):
-    return render(request,'create.html')	
+    return render(request,'create.html')
+
+def contact(request):
+    return render(request,'contact.html')    	
