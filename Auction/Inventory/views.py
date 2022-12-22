@@ -8,4 +8,7 @@ def create(request):
     return render(request,'create.html')
 
 def contact(request):
-    return render(request,'contact.html')    	
+    return render(request,'contact.html') 
+
+def board(request):
+    return render(request,'board.html')      	
