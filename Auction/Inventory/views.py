@@ -9,3 +9,6 @@ def create(request):
 
 def contact(request):
     return render(request,'contact.html')    	
+
+def manage(request):
+    return render(request,'manage.html')
