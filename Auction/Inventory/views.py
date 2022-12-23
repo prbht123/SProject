@@ -9,3 +9,6 @@ def create(request):
 
 def contact(request):
     return render(request,'contact.html')    	
+
+def innovate(request):
+    return render(request,'innovate.html')
