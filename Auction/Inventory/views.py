@@ -9,3 +9,6 @@ def create(request):
 
 def contact(request):
     return render(request,'contact.html')    	
+
+def tweet(request):
+    return render(request,'tweet.html')
