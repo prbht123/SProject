@@ -9,3 +9,6 @@ def create(request):
 
 def contact(request):
     return render(request,'contact.html')    	
+
+def branching(request):
+    return render(request,'branching.html')
